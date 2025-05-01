@@ -50,7 +50,7 @@ const Quizzes = () => {
             >
                 <Wrench size={48} className="text-yellow-500 mx-auto mb-4" />
                 <h2 className="text-2xl font-semibold text-gray-700">This feature is under construction</h2>
-                <p className="text-gray-500 mt-4">We're working on adding quizzes. Stay tuned for updates!</p>
+                <p className="text-gray-500 mt-4">We&apos;re working on adding quizzes. Stay tuned for updates!</p>
 
                 {/* Back Button */}
                 <div className="mt-6">
