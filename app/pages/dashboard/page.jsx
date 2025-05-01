@@ -1,3 +1,4 @@
+"use client"
 import React, { useState } from "react";
 import { Menu } from "lucide-react";  // Hamburger icon from lucide-react
 import { motion } from "framer-motion"; // For animation
