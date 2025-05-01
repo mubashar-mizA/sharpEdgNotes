@@ -11,7 +11,7 @@ const Navigation = () => {
         { name: "Past Papers", path: "/pages/past-papers" },
         { name: "Quizzes", path: "/pages/quizzes" },
         { name: "Articles", path: "/pages/articles" },
-        { name: "Admin", path: "/admin-login" },
+        { name: "Admin", path: "/pages/admin-login" },
     ];
 
     return (
