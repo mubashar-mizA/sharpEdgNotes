@@ -13,13 +13,19 @@ export const ourFileRouter = {
     },
   }).onUploadComplete(async ({ file }) => {
     try {
+
       console.log("Upload complete, file:", file); // Debug
+
       await ConnectDB(); // Add await
+
       const newFile = new File({
+
         fileUrl: file.ufsUrl, // Use ufsUrl
         fileName: file.name,
       });
+
       await newFile.save();
+      
       console.log("Saved to MongoDB:", file.ufsUrl);
     } catch (error) {
       console.error("Error saving file:", error);
