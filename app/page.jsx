@@ -1,19 +1,16 @@
-import Hero from "@/components/Hero";
-import Benefits from "@/components/Benefits";
-import PopularNotes from "@/components/PopularNotes";
-import FeaturedSubjects from "@/components/FeaturedSubjects";
-import FileUpload from "@/components/FileUpload";
+import Benefits from "./components/Benefits";
+import FeaturedSubjects from "./components/FeaturedSubjects";
+import Footer from "./components/Footer";
+import Hero from "./components/Hero";
+import PopularNotes from "./components/PopularNotes";
 export default function Home() {
   return (
     <div className="">
       <Hero />
-      <main className="p-6">
-        <h1 className="text-xl font-bold mb-4">Upload File</h1>
-        <FileUpload />
-      </main>
       <Benefits />
       <PopularNotes />
       <FeaturedSubjects />
+      <Footer />
     </div>
   );
 }
