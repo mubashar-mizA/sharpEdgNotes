@@ -1,7 +1,7 @@
 // app/api/uploadthing/core.js
 import { createUploadthing } from "uploadthing/next";
-import ConnectDB from "@/configs/connectDB";
-import File from "@/models/File";
+import ConnectDB from "@/app/configs/connectDB";
+import File from "@/app/models/File";
 
 const f = createUploadthing();
 
