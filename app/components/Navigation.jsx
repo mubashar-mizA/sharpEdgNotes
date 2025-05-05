@@ -7,11 +7,11 @@ import Link from "next/link";
 const Navigation = () => {
     const [isOpen, setIsOpen] = useState(false);
     const navItems = [
-        { name: "Notes", path: "/pages/notes" },
-        { name: "Past Papers", path: "/pages/past-papers" },
-        { name: "Quizzes", path: "/pages/quizzes" },
-        { name: "Articles", path: "/pages/articles" },
-        { name: "Admin", path: "/pages/admin-login" },
+        { name: "Notes", path: "/notes" },
+        { name: "Past Papers", path: "/past-papers" },
+        { name: "Quizzes", path: "/quizzes" },
+        { name: "Articles", path: "/articles" },
+        { name: "Admin", path: "/admin-signin" },
     ];
 
     return (
